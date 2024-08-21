@@ -19,7 +19,9 @@ public class AdvancedAssetEditor : ModuleRules
                 "CoreUObject",
                 "Engine",
                 "Slate",
-                "SlateCore"
+                "SlateCore",
+                "AdvancedAsset",
+                "UnrealEd"
             }
         );
     }
