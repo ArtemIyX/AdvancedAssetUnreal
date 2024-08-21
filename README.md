@@ -60,3 +60,8 @@ public:
 	}
 };
 ```
+
+## Documentation
+Doxygen documentation: [GitHubPages](https://artemiyx.github.io/AdvancedAssetUnrealDoc/annotated.html)
+
+Documentation sources: [GitHub](https://github.com/ArtemIyX/AdvancedAssetUnrealDoc)
