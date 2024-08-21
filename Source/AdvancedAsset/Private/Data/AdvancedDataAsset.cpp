@@ -5,7 +5,7 @@
 
 UAdvancedDataAsset::UAdvancedDataAsset()
 {
-	AssetType = TEXT("Enter your own asset id");
+	AssetType = TEXT("Enter your own asset type");
 }
 
 FPrimaryAssetId UAdvancedDataAsset::GetPrimaryAssetId() const
