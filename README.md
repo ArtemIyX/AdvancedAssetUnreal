@@ -22,17 +22,18 @@ UMyAdvancedDataAsset::UMyAdvancedDataAsset()
 ### Asset ID
 You can set the ID in the asset editor:
 
-![Screenshot1](https://cdn.discordapp.com/attachments/1026083841791754250/1275811694571950142/image.png?ex=66c73fbb&is=66c5ee3b&hm=57df8fb0a65dcb22a903bcfa7a771df616c0a2dab0dbcd9f9f5406f9cec5b635&)
+![AssetId](https://github.com/user-attachments/assets/536bf481-d701-47b5-ad82-c89ea0583233)
 
 ### Asset Manager
 Don't forget to add your asset to Asset Manager
 
-![Screenshot2](https://cdn.discordapp.com/attachments/1026083841791754250/1275813469916237914/image.png?ex=66c74162&is=66c5efe2&hm=536aa5266804e1f350d8adcd4f0e0870c43e3887146ce1b876d6d11c86821528&)
+![AssetManager](https://github.com/user-attachments/assets/f05e0657-b71e-4995-a240-ebe323d797e7)
 
 ### Thumbnail renderer
 You can select any icon from the project to display. You can also add a short name for the display.
 
-![Screenshot3](https://cdn.discordapp.com/attachments/1026083841791754250/1275813785055268864/image.png?ex=66c741ad&is=66c5f02d&hm=8922c1ed41fb8844a37f99f710bc869429625327096dc84c8b1c2a19661db3c0&)
+![UnrealRender](https://github.com/user-attachments/assets/d05ff025-fccc-4cc6-9ce6-40838f48024a)
+
 
 ## Tips
 Due to ID-Type you can use the following snippet code to load the data asset directly
