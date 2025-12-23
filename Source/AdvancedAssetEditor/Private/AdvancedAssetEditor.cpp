@@ -8,15 +8,24 @@
 
 void FAdvancedAssetEditorModule::StartupModule()
 {
-	UThumbnailManager::Get().RegisterCustomRenderer(UAdvancedDataAsset::StaticClass(),
-													UAdvancedAssetThumbnailRenderer::StaticClass());
+	if (GIsEditor)
+	{
+		UThumbnailManager& tm = UThumbnailManager::Get();
+		UThumbnailManager::Get().RegisterCustomRenderer(UAdvancedDataAsset::StaticClass(),
+			UAdvancedAssetThumbnailRenderer::StaticClass());
+	}
 }
 
 void FAdvancedAssetEditorModule::ShutdownModule()
 {
-    
+	if (GIsEditor && FSlateApplication::IsInitialized())
+	{
+		UThumbnailManager& tm = UThumbnailManager::Get();
+		tm.UnregisterCustomRenderer(UAdvancedDataAsset::StaticClass());
+	}
+	//UThumbnailManager::Get().UnregisterCustomRenderer(UAdvancedDataAsset::StaticClass());
 }
 
 #undef LOCTEXT_NAMESPACE
-    
+
 IMPLEMENT_MODULE(FAdvancedAssetEditorModule, AdvancedAssetEditor)
